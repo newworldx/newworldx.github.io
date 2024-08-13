@@ -1,0 +1,22 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  background-image: url(@/assets/11.jpg); /* 替换为你的纹理图片路径 */
+	background-blend-mode: multiply; /* 可选：将纹理与背景颜色混合 */
+	background-color: #21304f;
+}
+
+:root {
+  --link: #409eff;
+  --pink: #ff6699;
+}
